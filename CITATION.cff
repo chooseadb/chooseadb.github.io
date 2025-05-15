@@ -5,32 +5,32 @@ message: >-
   metadata from this file.
 type: software
 authors:
-  - orcid: 'https://orcid.org/0000-0002-5813-3303'
+  - orcid: "https://orcid.org/0000-0002-5813-3303"
     given-names: Bethan
     family-names: Iley
     affiliation: Queen's University Belfast and OLS
   - given-names: Patrick James
     family-names: Roddy
-    affiliation: 'Centre for Advanced Research Computing, UCL'
-    orcid: 'https://orcid.org/0000-0002-6271-1700'
-  - orcid: 'https://orcid.org/0000-0003-0577-1819'
-    affiliation: 'Centre for Advanced Research Computing, UCL'
+    affiliation: "Centre for Advanced Research Computing, UCL"
+    orcid: "https://orcid.org/0000-0002-6271-1700"
+  - orcid: "https://orcid.org/0000-0003-0577-1819"
+    affiliation: "Centre for Advanced Research Computing, UCL"
     given-names: Mahmoud
     family-names: Abdelrazek
   - given-names: Sam
     family-names: Cunliffe
-    orcid: 'https://orcid.org/0000-0003-0167-8641'
-    affiliation: 'Centre for Advanced Research Computing, UCL'
+    orcid: "https://orcid.org/0000-0003-0167-8641"
+    affiliation: "Centre for Advanced Research Computing, UCL"
   - given-names: David
     family-names: Pérez Suárez
-    orcid: 'https://orcid.org/0000-0003-0784-6909'
-    affiliation: 'Centre for Advanced Research Computing, UCL'
-  - orcid: 'https://orcid.org/0000-0003-2582-9758'
+    orcid: "https://orcid.org/0000-0003-0784-6909"
+    affiliation: "Centre for Advanced Research Computing, UCL"
+  - orcid: "https://orcid.org/0000-0003-2582-9758"
     given-names: Nadine
     family-names: Spychala
     affiliation: King's College London
-repository-code: 'https://github.com/chooseadb/chooseadb.com'
-url: 'https://chooseadb.com'
+repository-code: "https://github.com/chooseadb/chooseadb.com"
+url: "https://chooseadb.com"
 keywords:
   - game
   - database
