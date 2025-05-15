@@ -6,7 +6,7 @@ Choose a Database
 {
   "ifid": "D5C9855A-0114-4A45-A516-502A92FBC715",
   "format": "SugarCube",
-  "format-version": "2.37.3",
+  "format-version": "2.30.0",
   "start": "Introduction",
   "zoom": 1
 }
