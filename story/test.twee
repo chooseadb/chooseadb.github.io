@@ -1,0 +1,31 @@
+:: StoryTitle
+db2
+
+
+:: StoryData
+{
+  "ifid": "D5C9855A-0114-4A45-A516-502A92FBC715",
+  "format": "SugarCube",
+  "format-version": "2.30.0",
+  "start": "Untitled Passage",
+  "zoom": 1
+}
+
+
+:: Untitled Passage {"position":"900,400","size":"100,100"}
+The world is dangerous
+
+[[agree]] or [[disagree]]??
+
+
+
+
+:: agree {"position":"837.5,525","size":"100,100"}
+
+
+
+:: disagree {"position":"962.5,525","size":"100,100"}
+Are you sure??
+
+[[agree]]
+
