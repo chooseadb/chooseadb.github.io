@@ -80,7 +80,8 @@
         "doc",
         "design",
         "ideas",
-        "review"
+        "review",
+        "content"
       ]
     },
     {
@@ -91,7 +92,10 @@
       "contributions": [
         "doc",
         "design",
-        "ideas"
+        "ideas",
+        "projectManagement",
+        "content",
+        "review"
       ]
     }
   ]
