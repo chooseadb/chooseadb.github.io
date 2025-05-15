@@ -66,6 +66,17 @@
         "ideas",
         "review"
       ]
+    },
+    {
+      "login": "bethaniley",
+      "name": "Bethan Iley",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60103966?v=4",
+      "profile": "https://pure.qub.ac.uk/en/persons/bethan-iley",
+      "contributions": [
+        "doc",
+        "design",
+        "ideas"
+      ]
     }
   ]
 }
