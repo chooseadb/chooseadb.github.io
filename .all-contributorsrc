@@ -91,7 +91,10 @@
       "contributions": [
         "doc",
         "design",
-        "ideas"
+        "ideas",
+        "projectManagement",
+        "content",
+        "review"
       ]
     }
   ]
