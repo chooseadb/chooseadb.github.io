@@ -10,11 +10,10 @@ approachable and respectful.
 ## How to get started
 
 Have you found a typo, some misleading information or anything you'd like us to
-make better?
-Thanks! 🚀
+make better? Thanks! 🚀
 
-Please start by [creating an
-issue](https://github.com/chooseadb/chooseadb.com/issues/new) describing the
-problem you have found.
-If you know how to fix it, please fork the repository and open a pull request,
-one of us will review it as soon as we can.
+Please start by
+[creating an issue](https://github.com/chooseadb/chooseadb.com/issues/new)
+describing the problem you have found. If you know how to fix it, please fork
+the repository and open a pull request, one of us will review it as soon as we
+can.
