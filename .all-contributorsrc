@@ -21,7 +21,8 @@
         "projectManagement",
         "research",
         "talk",
-        "business"
+        "business",
+        "projectManagement"
       ]
     },
     {
@@ -81,6 +82,7 @@
         "design",
         "ideas",
         "review"
+        "content"
       ]
     },
     {
@@ -91,7 +93,10 @@
       "contributions": [
         "doc",
         "design",
-        "ideas"
+        "ideas",
+        "projectManagement"
+        "content"
+        "review"
       ]
     }
   ]
