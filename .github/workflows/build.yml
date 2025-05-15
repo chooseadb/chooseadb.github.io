@@ -3,7 +3,7 @@ name: Build
 on:
   push:
     branches:
-      - ghactions
+      - main
 
 jobs:
   build:
@@ -28,3 +28,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./
+          cname: chooseadb.com
