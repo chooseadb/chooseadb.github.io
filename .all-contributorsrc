@@ -54,6 +54,18 @@
         "review",
         "tool"
       ]
+    },
+    {
+      "login": "samcunliffe",
+      "name": "Sam Cunliffe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1836192?v=4",
+      "profile": "http://scnlf.me",
+      "contributions": [
+        "doc",
+        "design",
+        "ideas",
+        "review"
+      ]
     }
   ]
 }
