@@ -16,6 +16,13 @@ Institute](https://www.software.ac.uk/)'s [Collaborations Workshop
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/razekmh"><img src="https://avatars.githubusercontent.com/u/44040283?v=4?s=100" width="100px;" alt="Mahmoud Abdelrazek"/><br /><sub><b>Mahmoud Abdelrazek</b></sub></a><br /><a href="#content-razekmh" title="Content">🖋</a> <a href="#design-razekmh" title="Design">🎨</a> <a href="#ideas-razekmh" title="Ideas, Planning, & Feedback">🤔</a> <a href="#mentoring-razekmh" title="Mentoring">🧑‍🏫</a> <a href="#projectManagement-razekmh" title="Project Management">📆</a> <a href="#research-razekmh" title="Research">🔬</a> <a href="#talk-razekmh" title="Talks">📢</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
