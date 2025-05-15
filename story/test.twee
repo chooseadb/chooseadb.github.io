@@ -1,29 +1,31 @@
 :: StoryTitle
-databasegame
+db2
 
 
 :: StoryData
 {
-  "ifid": "75DF1EC4-9653-45C9-855A-01140A452516",
-  "format": "Harlowe",
-  "format-version": "3.3.9",
-  "start": "data?",
+  "ifid": "D5C9855A-0114-4A45-A516-502A92FBC715",
+  "format": "SugarCube",
+  "format-version": "2.30.0",
+  "start": "Untitled Passage",
   "zoom": 1
 }
 
 
-:: data? {"position":"900,400","size":"100,100"}
-The world is full of dangers
+:: Untitled Passage {"position":"900,400","size":"100,100"}
+The world is dangerous
 
-How ready are you?
-
-[[very ready]] or [[no ready]]
+[[agree]] or [[disagree]]??
 
 
 
-:: no ready {"position":"1025,525","size":"100,100"}
+
+:: agree {"position":"837.5,525","size":"100,100"}
 
 
 
-:: very ready {"position":"900,525","size":"100,100"}
+:: disagree {"position":"962.5,525","size":"100,100"}
+Are you sure??
+
+[[agree]]
 
