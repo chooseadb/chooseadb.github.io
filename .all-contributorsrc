@@ -38,6 +38,22 @@
         "review",
         "tool"
       ]
+    },
+    {
+      "login": "paddyroddy",
+      "name": "Patrick J. Roddy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15052188?v=4",
+      "profile": "https://paddyroddy.github.io",
+      "contributions": [
+        "code",
+        "content",
+        "doc",
+        "ideas",
+        "infra",
+        "research",
+        "review",
+        "tool"
+      ]
     }
   ]
 }
