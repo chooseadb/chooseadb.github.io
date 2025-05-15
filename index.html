@@ -116,34 +116,66 @@ Do other people need to write to your data (yes this includes users)?
 [[yes|edit-yes]] / [[no|edit-no]]</tw-passagedata><tw-passagedata pid="5" name="edit-no" tags="" position="1050,650" size="100,100">Will you be frequently be trading from your bag?
 
 Is your data updated frequently
-[[yes|edit-yes]] / [[no|update-no]]</tw-passagedata><tw-passagedata pid="6" name="edit-yes" tags="" position="900,800" size="100,100">You arrive at a small shop, the shelves lined with hundreds of weapons. The seller requires your help finding the correct weapon.
+[[yes|edit-yes]] / [[no|update-no]]</tw-passagedata><tw-passagedata pid="6" name="edit-yes" tags="" position="900,800" size="100,100">You arrive at a small shop, the shelves lined with hundreds of bottles and vials. You need the strongest potion, but the seller needs your help finding it.
 
-Can you structure it well in rows and columns?
+Can you structure your data well in rows and columns?
 
-[[Yes|structure-yes]] / [[No|structure-no]]</tw-passagedata><tw-passagedata pid="7" name="explore-no" tags="" position="1200,1050" size="100,100"></tw-passagedata><tw-passagedata pid="8" name="explore-yes" tags="" position="1325,925" size="100,100">You arrive at a waterhole, there is a friendly looking elephant drinking, a dolphin pops it&#39;s head above the water  ...
+[[Yes|structure-yes]] / [[No|structure-no]]</tw-passagedata><tw-passagedata pid="7" name="explore-no" tags="" position="1325,825" size="100,100">But you said you didn&#39;t know what questions to ask!
 
-choose a [relational DB](https://en.wikipedia.org/wiki/Relational_database)</tw-passagedata><tw-passagedata pid="9" name="key-no" tags="" position="900,1050" size="100,100">You come across a wizard&#39;s hut. The wizard requests your assistance understanding the many ways his ingredients combine to make potions.
+If you know your wishes [[ask the genie|question-yes]]!</tw-passagedata><tw-passagedata pid="8" name="explore-yes" tags="" position="1325,925" size="100,100">You put the lamp in your pack, and continue down the road. After some time you arrive at a waterhole, there is a friendly looking elephant drinking, a dolphin pops it&#39;s head above the water
+
+... choose a &lt;a href=&quot;https://en.wikipedia.org/wiki/Relational_database&quot;&gt;relational DB&lt;/a&gt;
+
+Popular choices: Postgres and MySQL</tw-passagedata><tw-passagedata pid="9" name="key-no" tags="" position="900,1050" size="100,100">You continue your quest and come across a wizard&#39;s hut. The wizard requests your assistance understanding the many ways the ingredients in your bag combine in his spells.
 
 Does your data represent networks?
 
-[[Yes|network-yes]] / [[No|network-no]]</tw-passagedata><tw-passagedata pid="10" name="key-yes" tags="" position="1050,925" size="100,100">Maybe use &lt;a href=&quot;https://en.wikipedia.org/wiki/Key%E2%80%93value_database&quot;&gt;key:Value&lt;/a&gt;</tw-passagedata><tw-passagedata pid="11" name="large-no" tags="" position="1325,650" size="100,100">You might not need a database
+[[Yes|network-yes]] / [[No|network-no]]</tw-passagedata><tw-passagedata pid="10" name="key-yes" tags="" position="1050,925" size="100,100">The shopkeeper hands you a key to a magical treasure chest.
 
-&lt;a href=&quot;https://datacarpentry.github.io/openrefine-socialsci/&quot;&gt;manage your data without db&lt;/a&gt;</tw-passagedata><tw-passagedata pid="12" name="media-no" tags="" position="900,1325" size="100,100">You arrive at a library. You need to find information about your quest, but you need to search hundreds of books.
+You should consider using a &lt;a href=&quot;https://en.wikipedia.org/wiki/Key%E2%80%93value_database&quot;&gt;key:Value&lt;/a&gt; Store.</tw-passagedata><tw-passagedata pid="11" name="large-no" tags="" position="1325,650" size="100,100">You might not need a database,
 
-Is your data a lot of text (a book)?
+Try ye old archaic formats a long scroll or the sheet of Excel. If they don&#39;t work, start the journey again.  Try storing your data in .csv plaintext format, or spreadsheet software of your choice
 
-[[Yes|text-yes]] / [[No|text-no]]</tw-passagedata><tw-passagedata pid="13" name="media-yes" tags="" position="1050,1175" size="100,100">You should probably put the rock down and start again! 
-store files in a directory structure, and put the file paths in a table along with metadata attributes (e. g., PostGres)</tw-passagedata><tw-passagedata pid="14" name="network-no" tags="" position="900,1175" size="100,100">Are you a Gaul? Are you carrying around heavy rocks?   Is it media files? (video, pictures, PDFs, specialised formats like nifti or DICOM 3D medial images)
+For example you could use &lt;a href=&quot;https://datacarpentry.github.io/openrefine-socialsci/&quot;&gt;Openrefine&lt;/a&gt;.</tw-passagedata><tw-passagedata pid="12" name="media-no" tags="" position="900,1325" size="100,100">You arrive at a library. It stores thousands of books.
 
-[[Yes|media-yes]] / [[No|media-no]]</tw-passagedata><tw-passagedata pid="15" name="network-yes" tags="" position="1050,1050" size="100,100">You seem interconnected! &lt;a href=&quot;https://en.wikipedia.org/wiki/Graph_database&quot;&gt;Graph DB&lt;/a&gt;</tw-passagedata><tw-passagedata pid="16" name="question-no" tags="" position="1200,925" size="100,100">Do you want to explore your data to answer a more abstract question? (E. g., how are your students doing well-being-wise?)
+Is your data a lot of text, such as a book or corpus?
 
-[[Yes|explore-yes]] / [[No|explore-no]]</tw-passagedata><tw-passagedata pid="17" name="question-yes" tags="" position="1200,800" size="100,100">You need to use &lt;a href=&quot;https://en.wikipedia.org/wiki/Document-oriented_database&quot;&gt;document-based DB&lt;/a&gt;</tw-passagedata><tw-passagedata pid="18" name="search-no" tags="" position="1050,1475" size="100,100">You probably do, use &lt;a href=&quot;https://en.wikipedia.org/wiki/Elasticsearch&quot;&gt;Elasticsearch&lt;/a&gt;</tw-passagedata><tw-passagedata pid="19" name="search-yes" tags="" position="1200,1325" size="100,100">&lt;a href=&quot;https://en.wikipedia.org/wiki/Elasticsearch&quot;&gt;Elasticsearch&lt;/a&gt;</tw-passagedata><tw-passagedata pid="20" name="structure-no" tags="" position="900,925" size="100,100">Is your data simple key:values ?
+[[Yes|text-yes]] / [[No|text-no]]</tw-passagedata><tw-passagedata pid="13" name="media-yes" tags="" position="1050,1175" size="100,100">You should probably put the rock down. Leave a marker on your map so that you don&#39;t forget where you&#39;ve left it!
 
-[[Yes|key-yes]] / [[No|key-no]]</tw-passagedata><tw-passagedata pid="21" name="structure-yes" tags="" position="1075,800" size="100,100">Do you know exactly what question to ask? (E. g., how many students have attended your class?)
+Store files in a directory structure, and put the file paths in a table along with metadata attributes (e. g., &lt;a href=&quot;https://en.wikipedia.org/wiki/PostgreSQL&quot;&gt;Postgres&lt;/a&gt;)</tw-passagedata><tw-passagedata pid="14" name="network-no" tags="" position="900,1175" size="100,100">Are you carrying around heavy rocks? Perhaps you are a Gaul.
 
-[[Yes|question-yes]] / [[no|question-no]]</tw-passagedata><tw-passagedata pid="22" name="text-no" tags="" position="900,1475" size="100,100">Is your data
-simple
-Key:Values</tw-passagedata><tw-passagedata pid="23" name="text-yes" tags="" position="1050,1325" size="100,100">Do you want to search through it?
+Is your data media files? (video, pictures, PDFs, specialised formats like nifti or DICOM 3D medial images)
+
+[[Yes|media-yes]] / [[No|media-no]]</tw-passagedata><tw-passagedata pid="15" name="network-yes" tags="" position="1050,1050" size="100,100">The wizard calls his familiar, a large fuzzy spider. It hands you a magical spider web which speeds up the process of cataloguing the spells.
+ 
+ Consider using a &lt;a href=&quot;https://en.wikipedia.org/wiki/Graph_database&quot;&gt;Graph database&lt;/a&gt;</tw-passagedata><tw-passagedata pid="16" name="question-no" tags="" position="1200,925" size="100,100">Can I have more time? You reply nervously?
+&quot;CERTAINLY&quot; The genie booms. &quot;CONTINUE DOWN THE PATH AND RUB MY LAMP AGAIN WHEN YOU ARE READY&quot;
+
+Do you want to explore your data to answer a more abstract question? (E. g., how are your students doing well-being-wise?)
+
+[[Yes|explore-yes]] / [[No|explore-no]]</tw-passagedata><tw-passagedata pid="17" name="question-yes" tags="" position="1200,800" size="100,100">You confidently make your wishes and they are instantly granted. The genie gives you a mango and then disappears in a puff of blue smoke!
+
+You should choose a &lt;a href=&quot;https://en.wikipedia.org/wiki/Document-oriented_database&quot;&gt;document-based DB&lt;/a&gt;. Popular choices: MongoDB</tw-passagedata><tw-passagedata pid="18" name="search-no" tags="" position="1050,1475" size="100,100">The librarian laughs. You can&#39;t find the password without searching! They hand you a magical spy glass which shows you all the relevant spells.
+
+You probably do want to search! Use &lt;a href=&quot;https://en.wikipedia.org/wiki/Full-text_search&quot;&gt;Text Search Engine&lt;/a&gt;.</tw-passagedata><tw-passagedata pid="19" name="search-yes" tags="" position="1200,1325" size="100,100">A magical spy glass rests on a shelf near you. You pick it up and the relevant scrolls appear before you.
+
+Use &lt;a href=&quot;https://en.wikipedia.org/wiki/Full-text_search&quot;&gt;Text Search Engine&lt;/a&gt;</tw-passagedata><tw-passagedata pid="20" name="structure-no" tags="" position="900,925" size="100,100">You have become friends with the shopkeeper. Since you frequent the market, they offer you a space in their shop to store your items.
+
+are you looking for a cache / or your data is simple
+Key:Values?
+
+[[Yes|key-yes]] / [[No|key-no]]</tw-passagedata><tw-passagedata pid="21" name="structure-yes" tags="" position="1075,800" size="100,100">The shopkeeper smiles and hands you a old rusty oil lamp. You take a few paces down the road and suddenly, a ginormous blue figure pops out of the lamp!
+
+&quot;WHAT ARE YOUR WISHES?&quot; they boom!
+
+
+Do you know exactly what question to ask? (E. g., how many students have attended your class?)
+
+[[Yes|question-yes]] / [[no|question-no]]</tw-passagedata><tw-passagedata pid="22" name="text-no" tags="" position="900,1475" size="100,100">You find a mysterious map in the library. After following it, you arrive at a waterhole. There is a friendly looking elephant drinking, a dolphin pops it&#39;s head above the water.
+
+Use a &lt;a href=&quot;https://en.wikipedia.org/wiki/Relational_database&quot;&gt;relational database&lt;/a&gt;, popular choices: &lt;a href=&quot;https://en.wikipedia.org/wiki/PostgreSQL&quot;&gt;Postgres&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/MySQL&quot;&gt;MySQL&lt;/a&gt;</tw-passagedata><tw-passagedata pid="23" name="text-yes" tags="" position="1050,1325" size="100,100">The librarian appears and offers you a quest: to seek out a tomb and find the lost scrolls. You need the password to enter the tomb. Perhaps you can find it in one of the library&#39;s books.
+
+Do you want to search through your data?
 
 [[Yes|search-yes]] / [[No|search-no]]</tw-passagedata><tw-passagedata pid="24" name="update-no" tags="" position="1200,650" size="100,100">Some travelers need caravans because they have so many items. Do you need one?
 

@@ -51,25 +51,31 @@ Is your data updated frequently
 
 
 :: edit-yes {"position":"900,800","size":"100,100"}
-You arrive at a small shop, the shelves lined with hundreds of weapons. The seller requires your help finding the correct weapon.
+You arrive at a small shop, the shelves lined with hundreds of bottles and vials. You need the strongest potion, but the seller needs your help finding it.
 
-Can you structure it well in rows and columns?
+Can you structure your data well in rows and columns?
 
 [[Yes|structure-yes]] / [[No|structure-no]]
 
 
-:: explore-no {"position":"1200,1050","size":"100,100"}
+:: explore-no {"position":"1325,825","size":"100,100"}
+But you said you didn't know what questions to ask!
+
+If you know your wishes [[ask the genie|question-yes]]!
 
 
 
 :: explore-yes {"position":"1325,925","size":"100,100"}
-You arrive at a waterhole, there is a friendly looking elephant drinking, a dolphin pops it's head above the water  ...
+You put the lamp in your pack, and continue down the road. After some time you arrive at a waterhole, there is a friendly looking elephant drinking, a dolphin pops it's head above the water
 
-choose a [relational DB](https://en.wikipedia.org/wiki/Relational_database)
+... choose a <a href="https://en.wikipedia.org/wiki/Relational_database">relational DB</a>
+
+Popular choices: Postgres and MySQL
+
 
 
 :: key-no {"position":"900,1050","size":"100,100"}
-You come across a wizard's hut. The wizard requests your assistance understanding the many ways his ingredients combine to make potions.
+You continue your quest and come across a wizard's hut. The wizard requests your assistance understanding the many ways the ingredients in your bag combine in his spells.
 
 Does your data represent networks?
 
@@ -77,80 +83,107 @@ Does your data represent networks?
 
 
 :: key-yes {"position":"1050,925","size":"100,100"}
-Maybe use <a href="https://en.wikipedia.org/wiki/Key%E2%80%93value_database">key:Value</a>
+The shopkeeper hands you a key to a magical treasure chest.
+
+You should consider using a <a href="https://en.wikipedia.org/wiki/Key%E2%80%93value_database">key:Value</a> Store.
 
 
 :: large-no {"position":"1325,650","size":"100,100"}
-You might not need a database
+You might not need a database,
 
-<a href="https://datacarpentry.github.io/openrefine-socialsci/">manage your data without db</a>
+Try ye old archaic formats a long scroll or the sheet of Excel. If they don't work, start the journey again.  Try storing your data in .csv plaintext format, or spreadsheet software of your choice
+
+For example you could use <a href="https://datacarpentry.github.io/openrefine-socialsci/">Openrefine</a>.
 
 
 :: media-no {"position":"900,1325","size":"100,100"}
-You arrive at a library. You need to find information about your quest, but you need to search hundreds of books.
+You arrive at a library. It stores thousands of books.
 
-Is your data a lot of text (a book)?
+Is your data a lot of text, such as a book or corpus?
 
 [[Yes|text-yes]] / [[No|text-no]]
 
 
 :: media-yes {"position":"1050,1175","size":"100,100"}
-You should probably put the rock down and start again! 
-store files in a directory structure, and put the file paths in a table along with metadata attributes (e. g., PostGres)
+You should probably put the rock down. Leave a marker on your map so that you don't forget where you've left it!
+
+Store files in a directory structure, and put the file paths in a table along with metadata attributes (e. g., <a href="https://en.wikipedia.org/wiki/PostgreSQL">Postgres</a>)
 
 
 :: network-no {"position":"900,1175","size":"100,100"}
-Are you a Gaul? Are you carrying around heavy rocks?   Is it media files? (video, pictures, PDFs, specialised formats like nifti or DICOM 3D medial images)
+Are you carrying around heavy rocks? Perhaps you are a Gaul.
+
+Is your data media files? (video, pictures, PDFs, specialised formats like nifti or DICOM 3D medial images)
 
 [[Yes|media-yes]] / [[No|media-no]]
 
 
 :: network-yes {"position":"1050,1050","size":"100,100"}
-You seem interconnected! <a href="https://en.wikipedia.org/wiki/Graph_database">Graph DB</a>
+The wizard calls his familiar, a large fuzzy spider. It hands you a magical spider web which speeds up the process of cataloguing the spells.
+ 
+ Consider using a <a href="https://en.wikipedia.org/wiki/Graph_database">Graph database</a>
 
 
 :: question-no {"position":"1200,925","size":"100,100"}
+Can I have more time? You reply nervously?
+"CERTAINLY" The genie booms. "CONTINUE DOWN THE PATH AND RUB MY LAMP AGAIN WHEN YOU ARE READY"
+
 Do you want to explore your data to answer a more abstract question? (E. g., how are your students doing well-being-wise?)
 
 [[Yes|explore-yes]] / [[No|explore-no]]
 
 
 :: question-yes {"position":"1200,800","size":"100,100"}
+You confidently make your wishes and they are instantly granted. The genie gives you a mango and then disappears in a puff of blue smoke!
 
-
-You need to use <a href="https://en.wikipedia.org/wiki/Document-oriented_database">document-based DB</a>
+You should choose a <a href="https://en.wikipedia.org/wiki/Document-oriented_database">document-based DB</a>. Popular choices: MongoDB
 
 
 
 
 :: search-no {"position":"1050,1475","size":"100,100"}
-You probably do, use <a href="https://en.wikipedia.org/wiki/Elasticsearch">Elasticsearch</a>
+The librarian laughs. You can't find the password without searching! They hand you a magical spy glass which shows you all the relevant spells.
+
+You probably do want to search! Use <a href="https://en.wikipedia.org/wiki/Full-text_search">Text Search Engine</a>.
 
 
 :: search-yes {"position":"1200,1325","size":"100,100"}
-<a href="https://en.wikipedia.org/wiki/Elasticsearch">Elasticsearch</a>
+A magical spy glass rests on a shelf near you. You pick it up and the relevant scrolls appear before you.
+
+Use <a href="https://en.wikipedia.org/wiki/Full-text_search">Text Search Engine</a>
+
 
 
 :: structure-no {"position":"900,925","size":"100,100"}
-Is your data simple key:values ?
+You have become friends with the shopkeeper. Since you frequent the market, they offer you a space in their shop to store your items.
+
+are you looking for a cache / or your data is simple
+Key:Values?
 
 [[Yes|key-yes]] / [[No|key-no]]
 
 
 :: structure-yes {"position":"1075,800","size":"100,100"}
-Do you know exactly what question to ask? (E. g., how many students have attended your class?)
+The shopkeeper smiles and hands you a old rusty oil lamp. You take a few paces down the road and suddenly, a ginormous blue figure pops out of the lamp!
+
+"WHAT ARE YOUR WISHES?" they boom!
+
+
+Do you know exactly what question to ask? (E. g., how many students have attended your class?)
 
 [[Yes|question-yes]] / [[no|question-no]]
 
 
 :: text-no {"position":"900,1475","size":"100,100"}
-Is your data
-simple
-Key:Values
+You find a mysterious map in the library. After following it, you arrive at a waterhole. There is a friendly looking elephant drinking, a dolphin pops it's head above the water.
+
+Use a <a href="https://en.wikipedia.org/wiki/Relational_database">relational database</a>, popular choices: <a href="https://en.wikipedia.org/wiki/PostgreSQL">Postgres</a> and <a href="https://en.wikipedia.org/wiki/MySQL">MySQL</a>
 
 
 :: text-yes {"position":"1050,1325","size":"100,100"}
-Do you want to search through it?
+The librarian appears and offers you a quest: to seek out a tomb and find the lost scrolls. You need the password to enter the tomb. Perhaps you can find it in one of the library's books.
+
+Do you want to search through your data?
 
 [[Yes|search-yes]] / [[No|search-no]]
 
