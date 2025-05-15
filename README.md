@@ -10,3 +10,14 @@ Also it's a game.
 This project was started at a Hackday in the [Software Sustainability
 Institute](https://www.software.ac.uk/)'s [Collaborations Workshop
 2025](https://www.software.ac.uk/publication/cw25-programme).
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
