@@ -1,0 +1,30 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - ghactions
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Use Go 1.13
+        uses: actions/setup-go@v5.0.1
+        with:
+          go-version: 1.13.x
+
+      - uses: jaxxstorm/action-install-gh-release@v1.12.0 
+        with:
+          repo: tmedwards/tweego
+          chmod: 0775
+      - run : tweego story -o index.html
+
+      - name: Deploy to Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./
