@@ -1,0 +1,18 @@
+---
+name: Link Check Built Pages
+
+on:
+  schedule:
+    - cron: 0 9 1 * *
+  workflow_dispatch:
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      # yamllint disable-line rule:line-length
+      - uses: paddyroddy/.github/actions/links@afc9971a75c3747288754be865c033ff859d979e # v0
+        with:
+          branch: gh-pages
+          github-token: ${{ secrets.GITHUB_TOKEN }}
