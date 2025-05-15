@@ -680,7 +680,7 @@ Public License instead of this License.  But first, please read
 
 ## Non software material (assets)
 
-All non code material is made under the [Creative Common Attribution ShareAlike license](https://creativecommons.org/licenses/by-sa/4.0/).  The following is a human-readable summary of (and not a substitute for) the [full legal text of the CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en).
+Unless specified by the asset, all non code material is made under the [Creative Common Attribution ShareAlike license](https://creativecommons.org/licenses/by-sa/4.0/).  The following is a human-readable summary of (and not a substitute for) the [full legal text of the CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en).
 
 ## You are free to: {#rights}
 
