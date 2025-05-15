@@ -7,9 +7,9 @@ public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostat
 Like [choosealicense](https://choosealicense.com) but for researchers' data.
 Also it's a game.
 
-This project was started at a Hackday in the [Software Sustainability
-Institute](https://www.software.ac.uk/)'s [Collaborations Workshop
-2025](https://www.software.ac.uk/publication/cw25-programme).
+This project was started at a Hackday in the
+[Software Sustainability Institute](https://www.software.ac.uk/)'s
+[Collaborations Workshop 2025](https://www.software.ac.uk/publication/cw25-programme).
 
 ## Contributors
 
