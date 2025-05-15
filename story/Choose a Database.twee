@@ -1,0 +1,161 @@
+:: StoryTitle
+Choose a Database
+
+
+:: StoryData
+{
+  "ifid": "D5C9855A-0114-4A45-A516-502A92FBC715",
+  "format": "SugarCube",
+  "format-version": "2.30.0",
+  "start": "Introduction",
+  "zoom": 1
+}
+
+
+:: Introduction {"position":"900,400","size":"100,100"}
+Welcome, Traveller, to Diskworld*!
+
+
+[[Start the adventure]]
+
+* Any resemblance to existing IP is purely coincidental.
+
+
+
+:: Start the adventure {"position":"900,525","size":"100,100"}
+You have arrived with a bag. Perhaps you should already have something in there.
+
+Do you have some data?
+
+[[data-yes][yes]] / [[data-no][no]]
+
+
+:: data-no {"position":"1050,525","size":"100,100"}
+Oh no! Perhaps you should collect some!
+
+[[Start the adventure][Come back when you've got some]]
+
+
+:: data-yes {"position":"900,650","size":"100,100"}
+You look around and spot a tavern. There may be other travelers who wish to join your party.
+
+Do many people need to edit your data?
+
+[[edit-yes][yes]] / [[edit-no][no]]
+
+
+:: edit-no {"position":"1050,650","size":"100,100"}
+Is your data updated frequently?
+
+[[edit-yes][yes]] / [[update-no][no]]
+
+
+:: edit-yes {"position":"900,800","size":"100,100"}
+You arrive at a small shop, the shelves lined with hundreds of weapons. The seller requires your help finding the correct weapon.
+
+Can you structure it well in rows and columns?
+
+[[structure-yes][Yes]] / [[structure-no][No]]
+
+
+:: explore-no {"position":"1200,1050","size":"100,100"}
+
+
+
+:: explore-yes {"position":"1325,925","size":"100,100"}
+You arrive at a waterhole, there is a friendly looking elephant drinking, a dolphin pops it's head above the water  ... 
+
+choose a [relational DB](https://en.wikipedia.org/wiki/Relational_database)
+
+
+:: key-no {"position":"900,1050","size":"100,100"}
+You come across a wizard's hut. The wizard requests your assistance understanding the many ways his ingredients combine to make potions.
+
+Does your data represent networks?
+
+[[network-yes][Yes]] / [[network-no][No]]
+
+
+:: key-yes {"position":"1050,925","size":"100,100"}
+Maybe use [key:Value](https://en.wikipedia.org/wiki/Key%E2%80%93value_database)
+
+
+:: large-no {"position":"1325,650","size":"100,100"}
+You might not need a database
+
+[manage your data without db](https://datacarpentry.github.io/openrefine-socialsci/)
+
+
+:: media-no {"position":"900,1325","size":"100,100"}
+You arrive at a library. You need to find information about your quest, but you need to search hundreds of books.
+
+Is your data a lot of text (a book)?
+
+[[text-yes][Yes]] / [[text-no][No]]
+
+
+:: media-yes {"position":"1050,1175","size":"100,100"}
+You should probably put the rock down and start again! 
+store files in a directory structure, and put the file paths in a table along with metadata attributes (e. g., PostGres)
+
+
+:: network-no {"position":"900,1175","size":"100,100"}
+Are you a Gaul? Are you carrying around heavy rocks?   Is it media files? (video, pictures, PDFs, specialised formats like nifti or DICOM 3D medial images)
+
+[[media-yes][Yes]] / [[media-no][No]]
+
+
+:: network-yes {"position":"1050,1050","size":"100,100"}
+You seem interconnected! [Graph DB](https://en.wikipedia.org/wiki/Graph_database)
+
+
+:: question-no {"position":"1200,925","size":"100,100"}
+Do you want to explore your data to answer a more abstract question? (E. g., how are your students doing well-being-wise?)
+
+[[explore-yes][yes]] / [[explore-no][no]]
+
+
+:: question-yes {"position":"1200,800","size":"100,100"}
+
+
+You need to use [document-based DB](https://en.wikipedia.org/wiki/Document-oriented_database)
+
+
+
+
+:: search-no {"position":"1050,1475","size":"100,100"}
+You probably do, use [Elasticsearch](https://en.wikipedia.org/wiki/Elasticsearch)
+
+
+:: search-yes {"position":"1200,1325","size":"100,100"}
+[Elasticsearch](https://en.wikipedia.org/wiki/Elasticsearch)
+
+
+:: structure-no {"position":"900,925","size":"100,100"}
+Is your data simple key:values ?
+
+[[key-yes][yes]] / [[key-no][no]]
+
+
+:: structure-yes {"position":"1075,800","size":"100,100"}
+Do you know exactly what question to ask? (E. g., how many students have attended your class?)
+
+[[question-yes][yes]] / [[question-no][no]]
+
+
+:: text-no {"position":"900,1475","size":"100,100"}
+Is your data
+simple
+Key:Values
+
+
+:: text-yes {"position":"1050,1325","size":"100,100"}
+Do you want to search through it?
+
+[[search-yes][Yes]] / [[search-no][No]]
+
+
+:: update-no {"position":"1200,650","size":"100,100"}
+Is your data large?
+
+[[edit-yes][yes]] / [[large-no][no]]
