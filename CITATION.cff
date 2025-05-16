@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+title: chooseadb.com
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Bethan
+    family-names: Iley
+    affiliation: Queen's University Belfast and OLS
+    orcid: "https://orcid.org/0000-0002-5813-3303"
+  - given-names: Patrick James
+    family-names: Roddy
+    affiliation: "Centre for Advanced Research Computing, UCL"
+    orcid: "https://orcid.org/0000-0002-6271-1700"
+  - given-names: Mahmoud
+    family-names: Abdelrazek
+    affiliation: "Centre for Advanced Research Computing, UCL"
+    orcid: "https://orcid.org/0000-0003-0577-1819"
+  - given-names: Sam
+    family-names: Cunliffe
+    orcid: "https://orcid.org/0000-0003-0167-8641"
+    affiliation: "Centre for Advanced Research Computing, UCL"
+  - given-names: David
+    family-names: Pérez Suárez
+    affiliation: "Centre for Advanced Research Computing, UCL"
+    orcid: "https://orcid.org/0000-0003-0784-6909"
+  - given-names: Nadine
+    family-names: Spychala
+    affiliation: King's College London
+    orcid: "https://orcid.org/0000-0003-2582-9758"
+repository-code: "https://github.com/chooseadb/chooseadb.com"
+url: "https://chooseadb.com"
+keywords:
+  - game
+  - database
+  - db
+  - guidance
+  - research data
+license: GPL-3.0
