@@ -68,7 +68,8 @@
         "ideas",
         "review",
         "a11y",
-        "bug"
+        "bug",
+        "talk"
       ]
     },
     {
@@ -80,7 +81,10 @@
         "doc",
         "design",
         "ideas",
-        "review"
+        "review",
+        "content",
+        "code",
+        "talk"
       ]
     },
     {
@@ -91,7 +95,11 @@
       "contributions": [
         "doc",
         "design",
-        "ideas"
+        "ideas",
+        "projectManagement",
+        "content",
+        "review",
+        "talk"
       ]
     }
   ]
