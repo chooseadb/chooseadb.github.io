@@ -22,6 +22,9 @@ jobs:
           chmod: 0775
       - run: tweego ./story -o ./website/index.html
 
+      - name: Move the images to the website directory
+        run: mv ./story/images ./website
+
       - name: Deploy to Pages
         uses: peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e # v4
         with:
