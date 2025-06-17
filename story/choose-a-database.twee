@@ -61,16 +61,16 @@ Can you structure your data well in rows and columns?
 
 
 :: explore-no {"position":"1325,825","size":"100,100"}
-But you said you didn't know what questions to ask!
+You said you didn't know what questions to ask!
 
 If you know your wishes, [[ask the genie|question-yes]]!
 
 
 
 :: explore-yes {"position":"1325,925","size":"100,100"}
-You put the lamp in your pack and continue down the road. After some time you arrive at a watering hole. There is a friendly looking elephant drinking, and a dolphin pops its head above the water.
+You put the lamp in your pack and continue down the road. After some time you arrive at a watering hole. A friendly looking elephant is drinking, and a dolphin pops its head above the water.
 
-...choose a <a href="https://en.wikipedia.org/wiki/Relational_database">relational DB</a>.
+…choose a <a href="https://en.wikipedia.org/wiki/Relational_database">relational DB</a>.
 
 Popular choices: Postgres and MySQL.
 
@@ -124,7 +124,7 @@ Is your data media files? (Video, pictures, PDFs, specialised formats like nifti
 
 :: network-yes {"position":"1050,1050","size":"100,100"}
 The wizard calls his familiar, a large fuzzy spider. It hands you a magical spider web which speeds up the process of cataloguing the spells.
- 
+
  Consider using a <a href="https://en.wikipedia.org/wiki/Graph_database">Graph database</a>.
 
 
@@ -179,7 +179,7 @@ Do you know exactly what question to ask? (For example, how many students have a
 
 
 :: text-no {"position":"900,1475","size":"100,100"}
-You find a mysterious map in the library. After following it, you arrive at a watering hole. There is a friendly looking elephant drinking, and a dolphin pops its head above the water.
+You find a mysterious map in the library. After following it, you arrive at a watering hole, where a friendly looking elephant is drinking and a dolphin pops its head above the water.
 
 Use a <a href="https://en.wikipedia.org/wiki/Relational_database">relational database</a>. Popular choices: <a href="https://en.wikipedia.org/wiki/PostgreSQL">Postgres</a> and <a href="https://en.wikipedia.org/wiki/MySQL">MySQL</a>.
 

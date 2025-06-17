@@ -1,1 +1,7 @@
+!.github/styles/config/
+!.github/styles/config/vocabularies/
+!.github/styles/config/vocabularies/Base
+.github/styles/*
+.github/styles/config/*
+.github/styles/config/vocabularies/*
 website/index.html
