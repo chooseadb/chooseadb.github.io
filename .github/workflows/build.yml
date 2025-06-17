@@ -29,3 +29,5 @@ jobs:
           publish_branch: gh-pages
           publish_dir: ./website
           cname: chooseadb.com
+          user_name: github-actions[bot]
+          user_email: github-actions[bot]@users.noreply.github.com
