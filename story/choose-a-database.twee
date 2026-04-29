@@ -46,7 +46,7 @@ Do other people need to write to your data? (Yes, this includes users.)
 
 
 :: edit-no {"position":"1050,650","size":"100,100"}
-Will you be frequently be trading from your bag?
+Will you be frequently trading from your bag?
 
 Is your data updated frequently?
 [[yes|edit-yes]] / [[no|update-no]]
